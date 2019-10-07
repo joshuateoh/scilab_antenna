@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_equiSpiral.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_equiSpiral" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_equiSpiral</refname>
+    <refpurpose>Design of Equiangular spiral antenna</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [r0,R,fi_m,N]=ant_equiSpiral(fU,fL,Exp_ratio,c)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>fU :</term>
+            <listitem><para> Upper frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>fL :</term>
+            <listitem><para> Lower frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Exp_ratio :</term>
+            <listitem><para> Expansion ratio</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c :</term>
+            <listitem><para> Speed of light (in m/s)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>r0 :</term>
+            <listitem><para> Minimum radius (in cm)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>R :</term>
+            <listitem><para> Maximum radius (in cm)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>fi_m :</term>
+            <listitem><para> In degree</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>N :</term>
+            <listitem><para> Number of turns</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of Equiangular spiral antenna
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+fU=900;
+fL=450;
+Exp_ratio=4;
+c=3*10^8;
+[r0,R,fi_m,N]=ant_equiSpiral(fU,fL,Exp_ratio,c)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

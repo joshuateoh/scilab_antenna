@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_yagi6.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_yagi6" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_yagi6</refname>
+    <refpurpose>Design of 6 element yagi uda antenna</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [La,Lr,Ld,SL,Sd,d,l]=ant_yagi6(G,f,c)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>G :</term>
+            <listitem><para> Required gain (in dB)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>f :</term>
+            <listitem><para> frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c :</term>
+            <listitem><para> Speed of light (in m/s)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>La :</term>
+            <listitem><para> Length of driven element (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Lr :</term>
+            <listitem><para> Length of reflector (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Ld :</term>
+            <listitem><para> Length of directors (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>SL :</term>
+            <listitem><para> Spacing between reflector and driver (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Sd :</term>
+            <listitem><para> Spacing director and driving element (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>d :</term>
+            <listitem><para> Diameter of elements (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>l :</term>
+            <listitem><para> Length of array (in m)</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of 6 element yagi uda antenna
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+G=12;
+f=200;
+c=3*10^8;
+[La,Lr,Ld,SL,Sd,d,l]=ant_yagi6(G,f,c)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

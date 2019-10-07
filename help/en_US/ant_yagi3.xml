@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_yagi3.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_yagi3" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_yagi3</refname>
+    <refpurpose>Design of 3 element yagi uda antenna</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [La,Lr,Ld,S]=ant_yagi3(f_MHz,c)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>f_MHz :</term>
+            <listitem><para> frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c :</term>
+            <listitem><para> Speed of light (in m/s)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>La :</term>
+            <listitem><para> Length of driven element (in feet)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Lr :</term>
+            <listitem><para> Length of reflector (in feet)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Ld :</term>
+            <listitem><para> Length of director (in feet)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>S :</term>
+            <listitem><para> Element spacing (in feet)</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of 3 element yagi uda antenna
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+f_MHz=172;
+c=3*10^8;
+[La,Lr,Ld,S]=ant_yagi3(f_MHz,c)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

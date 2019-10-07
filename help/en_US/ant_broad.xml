@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_broad.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_broad" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_broad</refname>
+    <refpurpose>Broad Side Array design</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [r,xo,twoao,a1,a2,a11,a12,a02]=ant_broad(dB)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>dB :</term>
+            <listitem><para> In decibels</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>r :</term>
+            <listitem><para> 10^(dB/20)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>xo :</term>
+            <listitem><para> Point where T4(xo) = r</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>twoao,a1,a2 :</term>
+            <listitem><para> Array elements</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>a11 :</term>
+            <listitem><para> The ratio of the a1 to a1</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>a12 :</term>
+            <listitem><para> The ratio of the a1 to a2</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>a02 :</term>
+            <listitem><para> The ratio of the 2ao to a2</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of a 5 element Broad Side Array which has optimum pattern
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+[r,xo,twoao,a1,a2,a11,a12,a02]=ant_broad(20)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

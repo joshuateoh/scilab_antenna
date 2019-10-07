@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!--Begin Entities-->
+<!ENTITY a427d08bdff71665f8411ef9c7e04d132 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_broad.xml">
+<!ENTITY a0af5bffa0f48c57aaa1d28fd0bf68e2f SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_designBeam.xml">
+<!ENTITY ac51d95b428faed6cfa9ba587b50a5695 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_designSide.xml">
+<!ENTITY a18dd5960567b654623d1c4198da1a0a5 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_dipole.xml">
+<!ENTITY a53320c2bf7f7fc8f13a4ea20a8053934 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_equiSpiral.xml">
+<!ENTITY aecc0e2eb81a22ea00c85e69fd8e39b41 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_fire.xml">
+<!ENTITY ae7bfe7157158fdc1430fb440c52d349d SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_fourPatch.xml">
+<!ENTITY afc1845274d7d4010a03af53e6254f49e SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_rhombic.xml">
+<!ENTITY acd7b949a894244760dfd9b94dd630267 SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_yagi3.xml">
+<!ENTITY a80dee2585ed1b3ae498a82ea2828985d SYSTEM "file:///C:/Program Files/scilab-6.0.2/contrib/scilab_antenna/help/en_US/ant_yagi6.xml">
+<!--End Entities-->
+]>
+<book version="5.0-subset Scilab" xml:lang="en_US"
+      xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xi="http://www.w3.org/2001/XInclude"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:mml="http://www.w3.org/1998/Math/MathML"
+      xmlns:html="http://www.w3.org/1999/xhtml"
+      xmlns:db="http://docbook.org/ns/docbook">
+  <info xml:id='scilab_antenna_manual'>
+    <title>scilab_antenna</title>
+  </info>
+
+<part xml:id='section_d6d6aa0415f5b0daa1e737ccbde2a82d'>
+<title>scilab_antenna</title>
+&a427d08bdff71665f8411ef9c7e04d132;
+&a0af5bffa0f48c57aaa1d28fd0bf68e2f;
+&ac51d95b428faed6cfa9ba587b50a5695;
+&a18dd5960567b654623d1c4198da1a0a5;
+&a53320c2bf7f7fc8f13a4ea20a8053934;
+&aecc0e2eb81a22ea00c85e69fd8e39b41;
+&ae7bfe7157158fdc1430fb440c52d349d;
+&afc1845274d7d4010a03af53e6254f49e;
+&acd7b949a894244760dfd9b94dd630267;
+&a80dee2585ed1b3ae498a82ea2828985d;
+</part>
+</book>

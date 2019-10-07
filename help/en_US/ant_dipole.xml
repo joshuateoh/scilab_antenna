@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_dipole.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_dipole" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_dipole</refname>
+    <refpurpose>Design of log periodic dipole</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [l1,l,R]=ant_dipole(tau,sigma,fU,fL,alfa,c)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>tau :</term>
+            <listitem><para> scale factor</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>sigma :</term>
+            <listitem><para> spacing factor</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>fU :</term>
+            <listitem><para> Upper frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>fL :</term>
+            <listitem><para> Lower frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>alfa :</term>
+            <listitem><para> Angle (in degree)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c :</term>
+            <listitem><para> Speed of light (in m/s)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>l1 :</term>
+            <listitem><para> Length of shortest element (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>l :</term>
+            <listitem><para> Element lengths array (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>R :</term>
+            <listitem><para> Spacing between elements array (in m)</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of log periodic dipole
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+tau=0.895;
+sigma=0.17;
+fU=30;
+fL=10;
+alfa=18.07;
+c=3*10^8;
+[l1,l,R]=ant_dipole(tau,sigma,fU,fL,alfa,c)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

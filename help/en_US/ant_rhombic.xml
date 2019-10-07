@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_rhombic.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_rhombic" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_rhombic</refname>
+    <refpurpose>Design of rhombic antenna</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [H,phi,l]=ant_rhombic(f,Delta,c)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>f :</term>
+            <listitem><para> frequency (in MHz)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Delta :</term>
+            <listitem><para> Angle of elevation (in degrees)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>c :</term>
+            <listitem><para> Speed of light (in m/s)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>H :</term>
+            <listitem><para> Rhombic height (in m)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>phi :</term>
+            <listitem><para> Tilt angle (in degrees)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>l :</term>
+            <listitem><para> Wire length (in m)</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of rhombic antenna
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+f=20;
+Delta=10;
+c=3*10^8;
+[H,phi,l]=ant_rhombic(f,Delta,c)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_fourPatch.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_fourPatch" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_fourPatch</refname>
+    <refpurpose>Four−Patch Array</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [D,D_dbi,ohm_a]=ant_fourPatch(diameter)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>diameter :</term>
+            <listitem><para> Diameter of patch antennas (lambda)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>D :</term>
+            <listitem><para> Directivity ( unitless )</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>D_dbi :</term>
+            <listitem><para> Directivity ( dBi )</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>ohm_a :</term>
+            <listitem><para> Beam area ( steradians )</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Four−Patch Array
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+diameter = 0.5;
+[D,D_dbi,ohm_a]=ant_fourPatch(diameter)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>

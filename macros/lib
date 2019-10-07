@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scilablib name="scilab_antennalib">
+  <macro name="ant_broad" file="ant_broad.bin" md5="b61a2eeebff69fdbfe9fda6b51aab4fc"/>
+  <macro name="ant_designBeam" file="ant_designBeam.bin" md5="371fce01493ee67552d43d67bac53fe5"/>
+  <macro name="ant_designSide" file="ant_designSide.bin" md5="d7d0440535c2d9ba15a4d48ec6f60904"/>
+  <macro name="ant_dipole" file="ant_dipole.bin" md5="eea890d2dda91432b4338d201d6637a3"/>
+  <macro name="ant_equiSpiral" file="ant_equiSpiral.bin" md5="c5bd68d8332fe7f826898f25cf5954d0"/>
+  <macro name="ant_fire" file="ant_fire.bin" md5="f0d80dbc4e69cb56656accd034a2340f"/>
+  <macro name="ant_fourPatch" file="ant_fourPatch.bin" md5="2809395294d54beffb73a7aeb8505280"/>
+  <macro name="ant_rhombic" file="ant_rhombic.bin" md5="e8bc774cca0bc75b36ae8aa06fc7a054"/>
+  <macro name="ant_yagi3" file="ant_yagi3.bin" md5="562331fd6dac0d3b1f068f189161fe20"/>
+  <macro name="ant_yagi6" file="ant_yagi6.bin" md5="f2192c7e18782b410ac18fe7c81e87bc"/>
+</scilablib>

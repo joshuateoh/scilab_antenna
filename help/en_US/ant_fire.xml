@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ *
+ * This help file was generated from ant_fire.sci using help_from_sci().
+ *
+ -->
+
+<refentry version="5.0-subset Scilab" xml:id="ant_fire" xml:lang="en"
+          xmlns="http://docbook.org/ns/docbook"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          xmlns:svg="http://www.w3.org/2000/svg"
+          xmlns:ns3="http://www.w3.org/1999/xhtml"
+          xmlns:mml="http://www.w3.org/1998/Math/MathML"
+          xmlns:scilab="http://www.scilab.org"
+          xmlns:db="http://docbook.org/ns/docbook">
+
+  <refnamediv>
+    <refname>ant_fire</refname>
+    <refpurpose>Design of simple End Fire Array</refpurpose>
+  </refnamediv>
+
+
+<refsynopsisdiv>
+   <title>Syntax</title>
+   <synopsis>
+   [n,LBYlambda,HPBW,SLL,alfa]=ant_fire(D,dBYlambda)
+   
+   </synopsis>
+</refsynopsisdiv>
+
+<refsection>
+   <title>Parameters</title>
+   <variablelist>
+        <varlistentry>
+            <term>D :</term>
+            <listitem><para> Directivity (in dB)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>dBYlambda :</term>
+            <listitem><para> Spacing/wavelength</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>n :</term>
+            <listitem><para> Number of elements</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>LBYlambda :</term>
+            <listitem><para> Length/wavelength</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>HPBW :</term>
+            <listitem><para> HPBW (in degree)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>SLL :</term>
+            <listitem><para> SLL (in dB)</para></listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>alfa :</term>
+            <listitem><para> Progressive phase shift , for theta equals to 0 &amp; 180</para></listitem>
+        </varlistentry>
+   </variablelist>
+</refsection>
+
+<refsection>
+   <title>Description</title>
+   <para>
+Design of simple End Fire Array
+   </para>
+   <para>
+</para>
+</refsection>
+
+<refsection>
+   <title>Examples</title>
+   <programlisting role="example"><![CDATA[
+D=20;
+dBYlambda=1/4;
+[n,LBYlambda,HPBW,SLL,alfa]=ant_fire(D,dBYlambda)
+
+   ]]></programlisting>
+</refsection>
+
+<refsection role="see also">
+   <title>See also</title>
+   <simplelist type="inline">
+   </simplelist>
+</refsection>
+
+<refsection>
+   <title>Authors</title>
+   <simplelist type="vert">
+   <member>Bytecode</member>
+   </simplelist>
+</refsection>
+</refentry>
