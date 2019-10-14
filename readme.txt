@@ -1,4 +1,4 @@
-# Scilab Antenna Module (version 0.1)
+# Scilab Antenna Module (version 0.10)
 
 This is an Antenna Design toolbox for Scilab.
 ## Getting Started
